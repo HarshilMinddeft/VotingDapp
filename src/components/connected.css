@@ -1,0 +1,176 @@
+.userTable {
+  width: 90%;
+  background-color: aliceblue;
+  box-shadow: red;
+  margin: 50px auto;
+  border-radius: 8px;
+  /* padding: 10px; */
+}
+.numbers {
+  width: 20%;
+  margin: 10px auto;
+  font-size: 14px;
+  border-radius: 18px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in,
+    background-color 100ms ease-in;
+  border: 2px solid #d295da;
+  color: rgb(14, 14, 16);
+  background: #e3b3ff;
+  display: block;
+  height: 36px;
+}
+.numbers:hover {
+  border-color: #ccc;
+}
+.numbers:focus {
+  border-color: #9147ff;
+  background: #f1cdff;
+}
+.addButton {
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background-color: #b289d1;
+  color: #eeeeee;
+  border: 1px solid #000;
+  border-radius: 9px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 3px 66px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 0.14s ease-out;
+  white-space: nowrap;
+}
+.addButton:hover {
+  box-shadow: 4px 4px 0 #87328a;
+  transform: translate(-4px, -4px);
+}
+.addButton :focus-visible {
+  outline-offset: 1px;
+}
+
+.userTable table {
+  width: 100%;
+  /* margin-bottom: 10px; */
+  border-collapse: collapse;
+}
+
+.userTable thead th {
+  background-color: rgb(108, 85, 139);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.userTable tbody td {
+  padding: 10px;
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgb(98, 46, 158);
+}
+
+.userTable thead th:hover {
+  border-color: #ccc;
+}
+
+.userTable thead th:focus {
+  border-color: #9147ff;
+  background: #f1cdff;
+  outline-offset: 1px;
+}
+
+.actionButtons button {
+  border: 0;
+  outline: auto;
+  background: rgb(92, 31, 150);
+  padding: 8px 10px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.welcome-message {
+  font-size: 48px;
+  font-family: "georgia";
+  /* font-weight: bold; */
+  text-align: center;
+}
+.connected-accounts {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.addButton1 {
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background-color: #b289d1;
+  color: #eeeeee;
+  border: 1px solid #000;
+  border-radius: 9px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 23px 76px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 0.14s ease-out;
+  white-space: nowrap;
+}
+.addButton1:hover {
+  box-shadow: 4px 4px 0 #87328a;
+  transform: translate(-4px, -4px);
+}
+.addButton1:focus-visible {
+  outline-offset: 1px;
+}
+.red {
+  font-size: 18px;
+  font-family: "georgia";
+  /* font-weight: bold; */
+  text-align: center;
+  color: red;
+}
+.numbers1 {
+  width: 20%;
+  cursor: pointer;
+  margin: 10px auto;
+  font-size: 14px;
+  border-radius: 18px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in,
+    background-color 100ms ease-in;
+  border: 2px solid #d295da;
+  color: rgb(245, 245, 245);
+  background: #ff2c2c;
+  display: block;
+  height: 26px;
+  font-size: 18px;
+  font-family: "georgia";
+  font-weight: bold;
+  text-align: center;
+}
+.userTable tbody :hover {
+  border-color: #ccc;
+}
+.userTable tbody :focus-visible {
+  border-color: #9147ff;
+  background: #f1cdff;
+  outline-offset: 8px;
+}
